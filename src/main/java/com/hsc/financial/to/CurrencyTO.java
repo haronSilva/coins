@@ -1,11 +1,20 @@
-package com.hsc.financial.model;
+package com.hsc.financial.to;
 
-
-public class Coin {
+public class CurrencyTO {
 	
 	private Integer id;
 	private String name;
 	private Double value;
+	
+	public CurrencyTO() {
+		
+	}
+	
+	public CurrencyTO(Integer id, String name, Double value) {
+		this.id = id;
+		this.name = name;
+		this.value= value;
+	}
 	
 	public Integer getId() {
 		return id;
@@ -27,5 +36,4 @@ public class Coin {
 	}
 	
 	
-
 }
