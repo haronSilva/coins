@@ -1,6 +1,6 @@
 package com.hsc.financial.model;
 
-import javax.*;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
